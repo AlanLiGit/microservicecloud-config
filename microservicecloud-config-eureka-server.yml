@@ -4,7 +4,7 @@ server:
 spring:
     profiles: dev
     application: 
-        name: microservicecloud-dev-eureka-client
+        name: microservicecloud-config-eureka-client
 
 eureka:
   instance:
@@ -24,7 +24,7 @@ server:
 spring:
     profiles: test
     application: 
-        name: microservicecloud-test-eureka-client
+        name: microservicecloud-config-eureka-client
 
 eureka:
   instance:
