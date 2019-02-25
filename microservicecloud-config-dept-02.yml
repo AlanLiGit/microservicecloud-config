@@ -37,6 +37,9 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
+customer:
+  name: dev
+  age: 1
 
 ---
 server:
@@ -78,4 +81,7 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
+customer:
+  name: test
+  age: 2
 
